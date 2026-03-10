@@ -13,7 +13,7 @@ This also highlights the importance of OOP in dealing with Pytorch
   - `MY_LSTMModel`: LSTM network with support for multi-layer and sequence-to-one output.
   - `MY_GRUModel`: GRU network with multi-layer support.
   - `MY_CNNModel`: CNN model with multi-class support. 
-  - 
+
 - **Trainer Class**
   - Handles training loops, metrics, and optimization.
   - Supports automatic task detection:
@@ -33,6 +33,5 @@ This also highlights the importance of OOP in dealing with Pytorch
 
 ```bash
 git clone 
-cd <repository_directory>
 pip install torch torchvision torchaudio torchmetrics matplotlib
-cd Downloads/MEG_DATASET/COMPILED TORCH MODELS # Then you can import the libraries
+cd <repository_directory> # You can now import the libraries in your python/jupyter
